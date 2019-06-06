@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8"/>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
 	<title>Meus livros</title>
     <link href="css/seu-stylesheet.css" rel="stylesheet"/>
@@ -26,14 +26,24 @@
                                     <li class="nav-item">
                                          <a class="nav-link" href="#">Gerenciador de livros</a>
                                     </li>
+                                    
+                                   
                                     <li class="nav-item dropdown">
                                          <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Categoria</a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                             <a class="dropdown-item" href="#">item1</a> <a class="dropdown-item" href="#">item2</a> <a class="dropdown-item" href="#">item3</a>
+                                             <a class="dropdown-item" href="#">Auto ajuda</a> 
+                                             <a class="dropdown-item" href="#">Financas pessoais</a> 
+                                             <a class="dropdown-item" href="#">Dieta</a>                                             
+                                             <a class="dropdown-item" href="#">Teconologia</a>
                                             <div class="dropdown-divider">
-                                            </div> <a class="dropdown-item" href="#">item4</a>
-                                        </div>
+                                            </div> 
+                                            <a class="dropdown-item" href="#">Programacao</a>
+                                             </div>
                                     </li>
+                                    <li class="nav-item">
+                                            <a class="nav-link" href="#">Configuracao</a>
+                                            
+                                       </li>
                                 </ul>
                                 <form class="form-inline">
                                     <input class="form-control mr-sm-2" type="text" /> 
